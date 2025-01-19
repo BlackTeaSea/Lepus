@@ -3,13 +3,13 @@
 	"id": "lepus",
 	"version": "${version}",
 	"name": "Lepus",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Tamed pets for Minecraft",
 	"authors": [
-		"Me!"
+		"GoldfishJonny"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "lepus.blackteasea.com",
+		"sources": "https://github.com/BlackTeaSea/Lepus"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/lepus/icon.png",
