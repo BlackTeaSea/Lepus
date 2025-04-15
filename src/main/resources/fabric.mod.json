@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "tochtli",
+  "version": "${version}",
+  "name": "Tochtli",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/tochtli/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-datagen": [
+      "org.blackteasea.tochtli.client.TochtliDataGenerator"
+    ],
+    "client": [
+      "org.blackteasea.tochtli.client.TochtliClient"
+    ],
+    "main": [
+      "org.blackteasea.tochtli.Tochtli"
+    ]
+  },
+  "mixins": [
+    "tochtli.mixins.json",
+    {
+      "config": "tochtli.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
