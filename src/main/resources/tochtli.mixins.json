@@ -4,6 +4,7 @@
   "package": "org.blackteasea.tochtli.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
+    "RabbitEntityMixin"
   ],
   "injectors": {
     "defaultRequire": 1
